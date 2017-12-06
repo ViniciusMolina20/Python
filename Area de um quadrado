@@ -1,0 +1,13 @@
+#Faça um Programa que calcule a área de um quadrado,
+#em seguida mostre o dobro desta área para o usuário.
+
+def Area_Quadrado (x):
+    x = (x * x) * 2
+    
+    return x
+
+
+quadrado = float(input("Lado do Quadrado: "))
+
+print ("Area do quadrado: {:.2f}".format(Area_Quadrado (quadrado)))
+
