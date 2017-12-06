@@ -1,0 +1,16 @@
+#Faça um Programa que peça dois números e imprima a soma.
+
+n1 = int(input("Informe um numero: "))
+n2 = int(input("Informe outro numero: "))
+
+#Opcao 1
+print ("\nSoma total: {}".format(n1 + n2))
+
+#Opcao 2
+soma = n1 + n2
+print ("Soma total: {}".format(soma))
+
+#Opcao 3
+print ("Soma total:",n1 + n2)
+
+
