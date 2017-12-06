@@ -1,0 +1,12 @@
+#Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+
+nm = input("Informe um numero: ")
+
+#Opção 1
+print ("O numero informado foi {}".format (nm))
+
+#Opção 2
+print ("O numero informado foi",nm)
+
+#Opção 3
+print ("O numero informado foi "+nm)
