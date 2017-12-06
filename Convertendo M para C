@@ -1,0 +1,9 @@
+#Faça um Programa que converta metros para centímetros.
+
+metro = float(input("Informe o metro: "))
+
+centimetro = int((metro / 0.010000)) #Formula
+
+print ("{:.2f} metros em centimetros é {} cm".format(metro, centimetro))
+print (metro,"metros em centimetros é",centimetro,"cm")
+
