@@ -1,0 +1,24 @@
+#Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+Opcao 1
+n1 = float(input("Digite a Nota 1: "))
+n2 = float(input("Digite a Nota 2: "))
+n3 = float(input("Digite a Nota 3: "))
+n4 = float(input("Digite a Nota 4: "))
+
+media = (n1 + n2 + n3 + n4) / 4
+
+print ("\nMedia Total: ",media)
+print ("Media Total: {} ".format(media))
+print ("Media Total: {} ".format((n1 + n2 + n3 + n4)/4))
+
+#Opcao 2
+media = 0
+for i in range (1,5):
+    nota = float(input("Informe a nota do aluno {}: ".format(i)))
+    media = media + nota
+
+media = media / 4
+print ("Media Total: ",media)
+print ("Media Total: {} ".format(media))
+
